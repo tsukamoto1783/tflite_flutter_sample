@@ -15,7 +15,7 @@ flutter version 3.7.10 で動作確認済み。
 
 &nbsp;
 ## ローカル環境でのセットアップ
-以下の手順参照。  
+以下の手順参照。(androidはプロジェクト内で実行してるので不要かも)  
 https://pub.dev/packages/tflite_flutter/versions/0.9.1#important-initial-setup--add-dynamic-libraries-to-your-app
 
 &nbsp;
@@ -27,6 +27,12 @@ https://pub.dev/packages/tflite_flutter/versions/0.9.1#important-initial-setup--
 - iosだと実機しかできない？ドキュメントには実機で動かすことが推奨されている。  
   以下の記事にもあるので、なんやかんや調整したらできそう？  
   https://qiita.com/sugityan/items/44b850ce97c9293ff172
+- 最新のバージョン(ver.0.3.1)だと、flutter3.0系に非対応。  
+  なので、他の人がカスタマイズしたライブラリを使用。  
+  意外と最近でもPRがあったりしてる。  
+  https://github.com/am15h/tflite_flutter_helper/issues/57
+
+
 
 &nbsp;
 ## ライブラリ
