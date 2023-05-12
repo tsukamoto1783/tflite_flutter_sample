@@ -8,7 +8,13 @@ clone後、ios,android両方でbuildが通るように調整。
 flutter version 3.7.10 で動作確認済み。
 - androidのbuild通るように設定の調整
 - ソースに処理コメント追加
-- iosのbuild通るように設定の調整（現状実機のみbuildできる）
+- iosのbuild通るように設定の調整（現状実機のみbuildできる）  
+ -　ドキュメントに記載のTensorFlowLiteC.freamwork を配置。  
+ -　podfileに右記追記  「pod 'TensorFlowLiteC', '~> 2.6.0'」  
+ -　シミュレーターでbuildするとCpuが違うと怒られるので、実機でbuildすると成功。  
+<!-- 　　  Error (Xcode): Building for iOS Simulator, but linking in object file built for iOS, file -->
+<!-- '/Users/tsukamotoyuto/development/[tflite_sample]/tflite_pubdev_library/example/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/TensorFlowLiteC' for architecture arm64 -->
+
 
 &nbsp;
 ### ローカル環境でのセットアップ
