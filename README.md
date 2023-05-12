@@ -12,6 +12,7 @@ flutter version 3.7.10 で動作確認済み。
  -　ドキュメントに記載のTensorFlowLiteC.freamwork を配置。  
  -　podfileに右記追記  「pod 'TensorFlowLiteC', '~> 2.6.0'」  
  -　シミュレーターでbuildするとCpuが違うと怒られるので、実機でbuildすると成功。  
+ -　実機なので、info.plistにカメラ許可設定追記
 <!-- 　　  Error (Xcode): Building for iOS Simulator, but linking in object file built for iOS, file -->
 <!-- '/Users/tsukamotoyuto/development/[tflite_sample]/tflite_pubdev_library/example/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/TensorFlowLiteC' for architecture arm64 -->
 
