@@ -2,6 +2,12 @@
 
 clone後、ios,android両方でbuildが通るように調整。
 
+【android build】
+<p>
+<img src="https://github.com/tsukamoto1783/tflite_flutter_sample/assets/61080605/42017571-0d15-4be3-aece-dcb788ba8b88" width="250" heigth="630">
+</p>
+
+
 ----------
 
 ### clone後に対応したこと
