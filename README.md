@@ -93,10 +93,10 @@ GUI上でもTensorFlow形式にして出力するできて、コマンド操作�
 https://github.com/sony/nnabla/issues/1191
 
 ※ 自前のIntel Macでnnableライブラリを使用し、以下のコマンド入力でtflite形式に変換することは確認済み  
-[Neutral Network liblarys/Doc/File Format Converter]https://nnabla.readthedocs.io/en/latest/python/file_format_converter/file_format_converter.html#tensorflow-lite  
+[Neutral Network liblarys/Doc/File Format Converter](https://nnabla.readthedocs.io/en/latest/python/file_format_converter/file_format_converter.html#tensorflow-lite)  
 
 【参考サイト】  
-[プログラミングなしで最新AIがどんどん無料で遊べるnnablaのサンプルがなんだかめちゃくちゃ充実しててスゴイ](https://note.com/shi3zblog/n/n933ba21a4dea  
+[プログラミングなしで最新AIがどんどん無料で遊べるnnablaのサンプルがなんだかめちゃくちゃ充実しててスゴイ](https://note.com/shi3zblog/n/n933ba21a4dea)  
 [Neutral Network liblarys](https://nnabla.org/ja/)  
 [TensorFlowのモデルファイル.pbを.tfliteに変換するときの注意点](https://rightcode.co.jp/blog/information-technology/tensorflow-model-file-conversion-important-point)  
 
